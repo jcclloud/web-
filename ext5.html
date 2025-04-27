@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #BEB5A9;
+            text-align: center;
+        }
+        .producto {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .producto h3 {
+            margin-top: 10px;
+        }
+        .producto p {
+            font-size: 16px;
+            color: #333;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons a, .buttons button {
+            text-decoration: none;
+            color: white;
+            background: #333;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .buttons a {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="producto">
+         <img src="C:\Users\jonat\OneDrive\Documentos\paginafinal\JC CLLOUD\WhatsApp Image 2025-03-30 at 3.57.54 PM.jpeg" alt="Producto 2">
+        <h3>Exterior</h3>
+        <div class="buttons">
+            <a href="exteriorA.html">Regresar</a>
+            <button onclick="addToCart('SUAVE')">Añadir al carrito</button>
+        </div>
+    </div>
+
+    <script>
+        let cart = [];
+
+        function addToCart(item) {
+            cart.push(item);
+            alert(item + " ha sido añadido al carrito.");
+        }
+    </script>
+
+</body>
+</html>

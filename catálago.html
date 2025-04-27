@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATÁLOGO</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: whitesmoke;
+        }
+        .nav {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            text-decoration: none;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white;
+            background: #a78d78;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .producto {
+            background: #e1d4c2;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .producto button {
+            background: #28a745;
+            color: grey;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+        .cart {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cart-container {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background: grey;
+            color: whitesmoke;
+            padding: 15px;
+            border-radius: 5px;
+            width: 250px;
+        }
+        .cart-container ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cart-container li {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        h2 {
+            text-align: center;
+            color: grey;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: times;
+        }
+    </style>
+</head>
+<body>
+    <h2>CATÁLOGO</h2>
+    <div class="nav">
+        <a href="index.html">INICIO</a>
+    </div>
+    <div class="catalogo">
+        <div class="producto">
+            <img src="C:\Users\jonat\OneDrive\Documentos\paginafinal\JC CLLOUD\L.jpeg" alt="Producto 1">
+            <h3>ILUMINACIONES</h3>
+            <a href="iluminaciones.html">VER</a>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\jonat\OneDrive\Documentos\paginafinal\JC CLLOUD\D.jpeg" alt="Producto 2">
+            <h3>DECORACIONES</h3>
+          <a href="decoraciones.html">VER</a>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\jonat\OneDrive\Documentos\paginafinal\JC CLLOUD\E.jpeg" alt="Producto 3">
+            <h3>EXTERIOR</h3>
+            <a href="exterior.html">VER</a>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\jonat\OneDrive\Documentos\paginafinal\JC CLLOUD\P.jpeg" alt="Producto 1">
+            <h3>PINTURAS</h3>
+            <a href="pinturas.html">VER</a>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\jonat\OneDrive\Documentos\paginafinal\JC CLLOUD\M.jpeg" alt="Producto 2">
+            <h3>MOBILARIO</h3>
+          <a href="mobilario.html">VER</a>
+        </div>    
+    </div>
+
+</body>
+</html>

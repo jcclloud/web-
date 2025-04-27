@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+
+
+}
+
+body{
+	margin: 0 auto;
+	max-width: 1200px;
+	font-family: 'Lato';
+	color:black;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+.container-items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	text-align: center;
+
+}
+
+.item img {
+	width: 100% ;
+	height: 300px;
+	object-fit: cover;
+	border-top-left-radius: 50px;
+	transition: all .5s;
+	text-align: center;
+
+}
+ 
+.item figure{
+	overflow: hidden;
+}
+.item:hover img{
+	transform: scale(1.2);
+
+}
+
+.info-producto{
+	padding: 15px 30px;
+	line-height: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+
+}
+
+.info-producto button { 
+	border: none;
+	background: none;
+	background-color:	RosyBrown;
+	color:white;
+	padding: 15px 10px;
+	cursor: pointer;
+	text-align:  center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.botones {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	color: pink;
+}
+.boton:hover{
+	color: grey;
+
+}
+.item a {
+
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	border: solid 2px;
+	border-color: black;
+	color: rosybrown;
+	padding: 5px;
+	font-family: times;
+	background-color: mistyrose;
+
+}
+.nav-item { /* Sirve para comabiar el color de los enlaces*/
+  color: black;
+
+  text-decoration: none;
+  margin: 0 9px;
+  font-size: 1.4em;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #e2d9cd;  
+}
