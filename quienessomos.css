@@ -1,0 +1,40 @@
+h1 {color:	Lavender;
+font-size:20px;
+font-family:times;
+font-weight:bold;
+font-style:normal;
+line-height:30px;
+letter-spacing:3px;
+text-transform:capitalize;
+text-align:center;
+text-indent:30px;
+
+
+}
+h4 {color:whitesmoke;
+font-size:20px;
+font-family:arial narrow;
+font-weight:bold;
+line-height:30px;
+letter-spacing:3px;
+text-transform:capitalize;
+text-align:center;
+text-indent:30px;
+
+
+}
+img {
+	width: 120px;
+}
+.nav-item { /* Sirve para comabiar el color de los enlaces*/
+  color: burlywood;
+
+  text-decoration: none;
+  margin: 0 9px;
+  font-size: 1.4em;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #F3ECE3;  
+}

@@ -1,0 +1,54 @@
+*{
+	margin: 30 px;
+
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:white;
+	padding: 100 px 40 px;
+	font-family:Monospace, sans-serif;
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+	margin: 10;
+	padding: 10;
+}
+.nav-item{
+	color: CadetBlue;
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 1.2em;
+	transition: color 0.9 s;
+
+}
+.nav-item:hover {
+	color: #CFCBC7 ;
+}
+ *{
+	
+	text-align: center;
+	color: 	DarkSeaGreen;
+}
+
+.brand img {
+	width : 100px;
+	height: 100px;
+}
+P {color: DarkCyan;
+font-size:15px;
+font-family:times;
+line-height:875px;
+letter-spacing:5px;
+text-align:left;
+text-indent:0px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
